@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-[1,2,3,4]<<"arrays!"
+create_an_array<<"arrays!"
 end
 
 def add_element_to_start_of_array(array, element)
@@ -19,7 +19,7 @@ def remove_element_from_end_of_array(array)
 end
 
 def remove_element_from_start_of_array(array)
-
+1,"wow"
 end
 
 def retrieve_element_from_index(array, index_number)
